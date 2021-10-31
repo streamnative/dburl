@@ -74,6 +74,7 @@ func BaseSchemes() []Scheme {
 		{"csvq", GenOpaque, 0, true, []string{"csv", "tsv", "json"}, ""},
 		{"exasol", GenExasol, 0, false, []string{"ex", "exa"}, ""},
 		{"firebirdsql", GenFirebird, 0, false, []string{"fb", "firebird"}, ""},
+		{"flinksql", GenFromURL("https://localhost:443/"), 0, false, nil, ""},
 		{"genji", GenOpaque, 0, true, []string{"gj"}, ""},
 		{"h2", GenScheme("h2"), 0, false, nil, ""},
 		{"hdb", GenScheme("hdb"), 0, false, []string{"sa", "saphana", "sap", "hana"}, ""},

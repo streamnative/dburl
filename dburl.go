@@ -102,6 +102,7 @@
 //	 CSVQ (csvq)                      | csv, tsv, json
 // 	 Exasol (exasol                   | ex, exa
 //	 Firebird SQL (firebirdsql)       | fb, firebird
+//	 Flink SQL (flinksql)             | flinksql
 //	 Genji (genji)                    | gj
 //	 Google BigQuery (bigquery)       | bq
 //	 Google Spanner (spanner)         | sp
